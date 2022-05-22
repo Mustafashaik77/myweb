@@ -1,0 +1,252 @@
+
+<html>
+<head>
+<title>Veenus</title>
+<style>
+
+body{
+background-image:url('images/background.jpg');
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+background-color:white;
+}
+div.body{
+width:1145px;
+height:750px;
+}
+div.welcome{
+height:50px;
+width:1145px;
+text-align:center;
+font-size:40px;
+}
+div.para1{
+height:150px;
+width:1145px;
+}
+p.content1{
+font-size:14px;
+color:black;
+padding-left:25px;
+padding-right:25px;
+line-height:22px;
+text-indent:123;
+text-align:justify;
+}
+div.message{
+width:450px;
+height:250px;
+background-color:#95f5ec;
+margin:auto;
+box-shadow: 7px 7px 5px grey;
+}
+div.top-message{
+width:450px;
+height:50px;
+background-color:#efe248;
+}
+div.pic{
+width:450px;
+height:110px;
+}
+div.pic1{
+width:150px;
+height:110px;
+float:left;
+}
+div.pic2{
+width:300px;
+height:110px;
+float:right;
+font-size:14px;
+}
+div.remain{
+font-size:14px;
+}
+
+
+</style>
+<link type="text/css" rel="stylesheet" href="style.css"> 
+</head>
+<body bgcolor="white">
+<div class="main">
+<div class="top" style="height:170px;">
+	<img src="images\toplogos.jpg" width="1145px" height="190px;">
+</div>
+<div class="menu">
+<ul>
+<li ><a href="index.html">Home</a></li>
+<li ><a href="aboutus.html">About us</a></li>
+<li ><a href="images.html">Images</a></li>
+<li ><a href="faculty.html">Faculty</a></li>
+<li ><a href="application.php">Application</a></li>
+<li ><a href="director.html">Directors</a></li>
+<li><a href="contactus.php">Contact us</a></li>
+</ul>
+</div>
+<div class="images">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/veenus.jpg" width="1145px" height="250px">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/about.jpg" width="1145px" height="250px">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/slide1.jpg" width="1145px" height="250px">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+<div class="body">
+	<div class="Welcome">
+		<strong style=" color:blue; font-family:Copperplate Gothic;">
+		Welcome To Veenus</strong>
+	</div>
+	<div class="para1">
+		<p class="content1">Veenus High School Group has been tremendously successful in the field of education,
+		 because it has not waited for things to happen, but has created opportunities instead of waiting for it to knock. 
+		This proactive approach has resulted in creating many vistas for learning and setting up different verticals
+		 in the field of education to suit the varying needs of the students. In over two decades of its existence,
+		 it has delivered to the society a steady and healthy band of successful youngsters who have made a mark 
+		in their respective career charts. Veenus has grown tall and spread far and wide at a decent pace mainly 
+		because parents and students responded.</p>
+	</div>
+	<div class="message">
+		<div class="top-message" style="text-align:center; font-size:35px; color:#2f820c; font-family:Perpetua;">	
+			Message From Chairman
+		</div>	
+		<div class="pic">
+			<div class="pic1">
+
+				<a href="images/director.jpg" target="_blank"><img src="images/director.jpg" width="110" height="100" style=" padding-left:15px; padding-top:10px;"></a>
+				
+			</div>
+			
+			<div class="pic2">
+			“I have learnt more as a teacher than as a student. 
+			I have learnt that it is easy to dream but difficult to turn it into a reality.
+			 The path of realisation of the dream is full of pitfalls and hurdles.
+			 Sometimes it can be very disappointing too.
+
+			</div>
+		</div>
+		<div class="remain" style="line-height:15px; padding-left:10px">
+		But, if I have been able to overcome all these and reach this stage of success it is because 
+		I had the unstinted support of the patient and understanding parents, students and well-wishers”.<br>
+		<strong> Nalluri-Sambha Siva Rao</strong>
+		</div>
+	</div>
+	<div class="para2">
+		<p class="content1">"We always believe and keep telling my students that a positive attitude will 
+		take you to great altitudes. The intention to contribute to the development of 
+		the society is primary. The action will naturally be reciprocal. Veenus was born 
+		with a strong commitment for a social renaissance, the parents and well wishers took the movement forward."</p>
+
+	</div>
+	<h2 style=" padding-left:20px; color:red; font-size:26px;">Why Veenus?</h2>
+	<div class="para3">
+		<p class="content1">Veenus has become a household name for innovative and success oriented programmes. 
+		With its stupendous success year after year in SSC board examinations, the group has emerged as an 
+		undisputed leader in the field of school education in South India. The ever growing number of students 
+		scoring Centum in crucial subjects for success in IIT (JEE) and NEET (medical) and industries like Mathematics and Physics makes Veenus 
+		a preferred destination for the parent community who dream big for their children.</p>
+	</div>
+</div>
+<div class="footer">
+	<div class="footermain">
+			
+			<div class="footerlogo">
+			
+			<img src="images/footerlogo.jpg" width=" 150" height="150" style="padding-left:20px; padding-top:25px;">
+			</div>
+			<div class="footercontactus">
+				
+					<h1>Contact Us</h1>
+					<div class="fcu1">
+					<img src="images/googlemaps.png" width="40" height="20" style="padding-left:10px;">
+					<strong style="font-size:14px; color:white; padding-left:0px;">Address:</strong>
+					14thMile, Lemalle, Guntur, 522016.
+				</div>
+				<div class="fcu2">
+					<img src="images/contacticon.png" height="25" width="40" style="padding-left:10px;">
+					<strong style="font-size:16px; color:white; padding-left:0px;">Phone:</strong>
+					9908693426, &nbsp;8500387627
+				</div>
+				<div class="fcu3">
+					<img src="images/gmailicon.png" height="25" width="40" style="padding-left:10px; ">
+					<strong style="font-size:16px; color:white; padding-left:0px;">Email:</strong>
+					veenuslemella98@gmail.com
+				</div>
+			</div>
+			<div class="footerfollowus">
+				<h1>Follow Us</h1>
+			
+
+				<a href="https://www.facebook.com/Veenus-HighPublic-School-14th-Mile-Lemalle-Amaravathi-895473283806433/" target="_blank">
+				<img src="images/fb.png" width="50" height="50"></a >
+				<a href="www.whatsapp.com" target="_blank">
+				<img src="images/whatsapp.png" width="50" height="50" style="  padding-left:7px;"></a>
+				<a href="www.instagram.com" target="_blank">
+				<img src="images/insta.png" width="50" height="50" style="padding-left:7px; "></a>
+				<a href="https://mail.google.com/mail/u/0/" target="_blank">
+				<img src="images/gmail.png" width="50" height="50" style="  padding-left:7px;"></a>
+				<a href="https://www.youtube.com/watch?v=HZtDstKeo7g&t=1s" target="_blank">
+				<img src="images/youtube.png" width="50" height="50" style=" padding-left:7px; "></a>
+				<a href="www.twitter.com" target="_blank">
+				<img src="images/twitter.jpg" width="50" height="50" style="  padding-left:7px;"></a>
+			</div>
+			
+		
+		</div>
+		<div class="reference">
+		
+		</div>
+		<div class="bottomfooter">
+			<div class="copyrights">
+				www.veenushighschool.in  © 1998 All Rights Are Reserverd.
+			</div>
+
+			<div class="designer">
+				Designed By : Mustafa Shaik
+			</div>
+</div>
+
+</div>
+
+<div style="text-align:right;position:fixed;bottom:3px;right:3px;width:100%;z-index:999999;cursor:pointer;line-height:0;display:block;"><a target="_blank" href="https://www.freewebhostingarea.com" title="Free Web Hosting with PHP5 or PHP7"><img alt="Free Web Hosting" src="https://www.freewebhostingarea.com/images/poweredby.png" style="border-width: 0px;width: 180px; height: 45px; float: right;"></a></div>
+</body>
+</html>
